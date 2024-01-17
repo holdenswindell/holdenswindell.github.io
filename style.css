@@ -4,3 +4,9 @@ body {
 	margin: 50px auto;
 	max-width: 600px;
 }
+
+@media (max-width: 700px) {
+	body {
+		margin: 50px;
+	}
+}
