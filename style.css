@@ -2,10 +2,10 @@ body {
 	background-color: whitesmoke;
 	font-family: Arial, sans-serif;
 	margin: 50px auto;
-	max-width: 800px;
+	max-width: 900px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	body {
 		margin: 50px;
 	}
