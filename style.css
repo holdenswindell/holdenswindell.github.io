@@ -1,5 +1,5 @@
 body {
-	background-color: #eeeeee;
+	background-color: whitesmoke;
 	font-family: Arial, sans-serif;
 	margin: 50px auto;
 	max-width: 600px;
@@ -9,4 +9,31 @@ body {
 	body {
 		margin: 50px;
 	}
+}
+
+#navbar {
+	background: gainsboro;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar a {
+	color: black;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#navbar a:hover:not(.active) {
+	background-color: darkgray;
+}
+
+#navbar a.active {
+	background-color: dimgray;
+	color: whitesmoke;
 }
